@@ -5,7 +5,7 @@ app = QtWidgets.QApplication(sys.argv)
 window = QtWidgets.QWidget() 
 window.setWindowTitle("Первая программа на PyQt") 
 window.setWindowFlag(QtCore.Qt.WindowCloseButtonHint, False)
-window.setFixedSize(300, 70)
+window.setFixedSize(300, 400)
 
 label = QtWidgets.QLabel("<center>Привет, мир!</center>") 
 
@@ -19,3 +19,4 @@ btnQuit.clicked.connect(app.quit)
 
 window.show() 
 sys.exit(app.exec_())
+print('z t,e fkb,f,e')
